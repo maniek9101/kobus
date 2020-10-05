@@ -38,7 +38,7 @@
 
 .main .content .content-in {
   width: 100%;
-  max-width: 1550px;
+  max-width: 1270px;
   padding-left: 88px;
 }
 
@@ -177,7 +177,7 @@
 
 .footer .footer-content {
   width: 100vw;
-  max-width: 1550px;
+  max-width: 1270px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,6 +188,7 @@
 
 .footer .footer-content .box {
   width: 280px;
+  height: 100%;
   background: #be9b7b;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -252,7 +253,7 @@
 
 .nav .nav-content {
   width: 100%;
-  max-width: 1550px;
+  max-width: 1270px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

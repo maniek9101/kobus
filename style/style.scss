@@ -35,7 +35,7 @@ $basic-brown: #be9b7b;
         {
             // border: 1px solid red;
             width: 100%;
-            max-width: 1550px;
+            max-width: 1270px;
             padding-left: 88px;
 
             p
@@ -175,7 +175,7 @@ $basic-brown: #be9b7b;
     .footer-content
     {
         width: 100vw;
-        max-width: 1550px;
+        max-width: 1270px;
         // border: 1px solid white;
         display: flex;
         justify-content: space-between;
@@ -183,6 +183,7 @@ $basic-brown: #be9b7b;
         .box 
         {
             width: 280px;
+            height: 100%;
             background: $basic-brown;
             display: flex;
             justify-content: center;
@@ -239,7 +240,7 @@ $basic-brown: #be9b7b;
     .nav-content
     {
         width: 100%;
-        max-width: 1550px;
+        max-width: 1270px;
         // border: 1px solid red;  
         display: flex;  
         justify-content: space-between;
