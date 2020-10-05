@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main">
+
+        <div class="content one">
+
+          <div class="content-in">
+
+            <p>Szukasz nieruchomość? </p>
+            <p>Pozwól sobie <br> pomóc!</p>
+
+            <div class="slick-nav">
+              <div class="left-arrow"><</div>
+              <div class="dot first-dot"></div>
+              <div class="dot second-dot"></div>
+              <div class="dot third-dot"></div>
+              <div class="right-arrow">></div>
+            </div>
+          
+          </div>
+
+        </div>
+
+        <div class="content two">
+          <div class="content-in">
+            <p>Two</p>
+          </div>
+        </div>
+        <div class="content three">
+          <div class="content-in">
+            <p>Three</p>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="nav">
+      <div class="nav-content">
+        <img src="assets/logo-width.png" alt="logo">
+        <div class="links">
+          <ul>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">nieruchomości</a></li>
+            <li><a href="#">Grunty</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="box"><p>Strona główna</p></div>
+        <div class="footer-nav">
+          <p>01</p>
+          <p>-</p>
+          <p>02</p>
+          <p>03</p>
+          <p>04</p>
+          <p>05</p>
+          <img src="assets/logo.png" alt="logo">
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.main').slick({
+        // dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        arrows: false,
+        dots: false,
+      });
+
+      $('.right-arrow').click(()=>{
+        console.log('click');
+        $('.main').slick('slickNext');
+      });
+
+      $('.left-arrow').click(()=>{
+          console.log('click');
+          $('.main').slick('slickPrev');
+      });
+
+    });
+
+    
+  </script>
+</body>
+</html>
